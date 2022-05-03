@@ -27,7 +27,7 @@ public:
 
 	UPROPERTY(EditAnywhere, Category = "Moving Platform")
 	FVector PlatformVelocity = FVector(100, 0, 0);	
-	
+
 	UPROPERTY(EditAnywhere, Category = "Moving Platform")
 	float MovedDistance = 100;	
 	
