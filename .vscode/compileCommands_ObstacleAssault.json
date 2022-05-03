@@ -1,0 +1,27 @@
+[
+	{
+		"file": "F:\\GameDev\\UnrealEngine\\UnrealEngineC++Course\\ObstacleAssault\\Source\\ObstacleAssault\\MovingPlatform.cpp",
+		"command": "C:\\MY_PROGRAMS\\VisualStudio\\2022\\VC\\Tools\\MSVC\\14.31.31103\\bin\\HostX64\\x64\\cl.exe @F:\\GameDev\\UnrealEngine\\UnrealEngineC++Course\\ObstacleAssault\\.vscode\\compileCommands_ObstacleAssault\\ObstacleAssault.211.rsp",
+		"directory": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "F:\\GameDev\\UnrealEngine\\UnrealEngineC++Course\\ObstacleAssault\\Source\\ObstacleAssault\\MovingPlatform.h",
+		"command": "C:\\MY_PROGRAMS\\VisualStudio\\2022\\VC\\Tools\\MSVC\\14.31.31103\\bin\\HostX64\\x64\\cl.exe @F:\\GameDev\\UnrealEngine\\UnrealEngineC++Course\\ObstacleAssault\\.vscode\\compileCommands_ObstacleAssault\\ObstacleAssault.211.rsp",
+		"directory": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "F:\\GameDev\\UnrealEngine\\UnrealEngineC++Course\\ObstacleAssault\\Source\\ObstacleAssault\\ObstacleAssault.Build.cs",
+		"command": "C:\\MY_PROGRAMS\\VisualStudio\\2022\\VC\\Tools\\MSVC\\14.31.31103\\bin\\HostX64\\x64\\cl.exe @F:\\GameDev\\UnrealEngine\\UnrealEngineC++Course\\ObstacleAssault\\.vscode\\compileCommands_ObstacleAssault\\ObstacleAssault.211.rsp",
+		"directory": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "F:\\GameDev\\UnrealEngine\\UnrealEngineC++Course\\ObstacleAssault\\Source\\ObstacleAssault\\ObstacleAssault.cpp",
+		"command": "C:\\MY_PROGRAMS\\VisualStudio\\2022\\VC\\Tools\\MSVC\\14.31.31103\\bin\\HostX64\\x64\\cl.exe @F:\\GameDev\\UnrealEngine\\UnrealEngineC++Course\\ObstacleAssault\\.vscode\\compileCommands_ObstacleAssault\\ObstacleAssault.211.rsp",
+		"directory": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "F:\\GameDev\\UnrealEngine\\UnrealEngineC++Course\\ObstacleAssault\\Source\\ObstacleAssault\\ObstacleAssault.h",
+		"command": "C:\\MY_PROGRAMS\\VisualStudio\\2022\\VC\\Tools\\MSVC\\14.31.31103\\bin\\HostX64\\x64\\cl.exe @F:\\GameDev\\UnrealEngine\\UnrealEngineC++Course\\ObstacleAssault\\.vscode\\compileCommands_ObstacleAssault\\ObstacleAssault.211.rsp",
+		"directory": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0\\Engine\\Source"
+	}
+]
