@@ -21,7 +21,9 @@ protected:
 
 public:	
 	// Called every frame
-	virtual void Tick(float DeltaTime) override;
+	virtual void Tick(float DeltaTime) override;	
+
+private:
 	
 	FVector StartLocation;
 
@@ -30,5 +32,15 @@ public:
 
 	UPROPERTY(EditAnywhere, Category = "Moving Platform")
 	float MovedDistance = 100;	
+
+	UPROPERTY(EditAnywhere, Category = "Moving Platform");
+	bool bMovePlatform = true;
+
+	UPROPERTY(EditAnywhere, Category = "Moving Platform");
+	bool bRotPlatform = true;
+
+	void MovePlatform(float DeltaTime, bool movePlatform);
+
+	void RotatePlatform(float DeltaTime, bool rotPlatform);
 	
 };
