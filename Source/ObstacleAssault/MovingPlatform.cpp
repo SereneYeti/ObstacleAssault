@@ -24,20 +24,29 @@ void AMovingPlatform::RotatePlatform(float DeltaTime, bool rotPlatform)
 
 void AMovingPlatform::MovePlatform(float DeltaTime, bool movePlatform)
 {	
-	FVector CurrentLocation = GetActorLocation();	
-	CurrentLocation += PlatformVelocity * DeltaTime;
-	SetActorLocation(CurrentLocation);
-	float DistanceMoved = FVector::Dist(StartLocation, CurrentLocation);
-
-	if (DistanceMoved > MovedDistance)
-	{
-		FString ObjectName = GetName();
-		UE_LOG(LogTemp, Display, TEXT("%s Platform overshot by: %f"), *ObjectName, DistanceMoved - MovedDistance);
+	if (ShouldPlatformReturn())
+	{		
 		FVector MoveDirection = PlatformVelocity.GetSafeNormal();
 		StartLocation = StartLocation + MoveDirection * MovedDistance;
 		SetActorLocation(StartLocation);
-		PlatformVelocity = -PlatformVelocity;
+		PlatformVelocity = -PlatformVelocity;		
 	}
+	else
+	{
+		FVector CurrentLocation = GetActorLocation();	
+		CurrentLocation += PlatformVelocity * DeltaTime;
+		SetActorLocation(CurrentLocation);		
+	}
+}
+
+float AMovingPlatform::GetDistanceMoved() const
+{
+	return FVector::Dist(StartLocation, GetActorLocation());
+}
+
+bool AMovingPlatform::ShouldPlatformReturn() const
+{		
+	return GetDistanceMoved() > MovedDistance;
 }
 
 // Called every frame
